@@ -1,0 +1,28 @@
+
+.blackBox{background-color: black; width: 204px; height: 363px;}
+
+.box1{background: rgba(255, 0, 0, 0.4); height: 30px;}
+.box2{background: rgba(255, 190, 0, 0.4); height: 72px;}
+.box3{background: rgba(166, 0, 255, 0.4); height: 116px;}
+.box4{background: rgba(0, 255, 72, 0.4); height: 106px;}
+
+.buttons
+{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.lbup{display: flex; justify-content: center; }
+.btn1{float:left;}
+.btn2{float:left;}
+.btn3{float:left;}
+
+.clear{clear: both;}
+
+.lbdown{display: flex; justify-content: center; }
+.btn4{float:left;}
+.btn5{float:left;}
+.btn6{float:left;}
+
+.box5{background: rgba(0, 136, 255, 0.4); height: 40px;}
