@@ -1,11 +1,17 @@
+.blackBox{color: #fff; background-color: black; width: 204px; height: 363px;}
 
-.blackBox{background-color: black; width: 204px; height: 363px;
+.box1{background: rgba(0, 0, 0, 0.2); height: 30px;}
+.box2{background: rgba(66, 66, 66, 0.7); height: 72px;text-align: center;}
+.circle {
+	border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    background: grey;
+    border: 7px solid white;
+    margin: 0; padding: 0;display: inline-block;
 }
-
-.box1{background: rgba(255, 0, 0, 0.2); height: 30px;}
-.box2{background: rgba(255, 190, 0, 0.2); height: 72px;}
-.box3{background: rgba(166, 0, 255, 0.2); height: 116px;}
-.box4{background: rgba(0, 255, 72, 0.2); height: 106px;}
+.box3{background: rgba(0, 0, 0, 0.2); height: 116px;}
+.box4{background: rgba(66, 66, 66, 0.7); height: 106px;}
 
 .containerbtns
 { position: relative;
@@ -13,16 +19,19 @@
   transform: translateY(-50%);
 }
 
-.btn{height: 23px; width: 23px;}
-.lbup{display: flex; justify-content: center; }
-.btn11{float:left; background-color:orange; }
+.navigation ul { margin: 0; padding: 0; }
+.navigation li {display: inline-block;}
+.navigation {color: #fff; margin: 0px 2px; padding: 0px 25px;}
+  
+.btn{height: 23px; width: 23px;text-align: center;}
+
+.btn11{float:left; background-color:orange;}
 .btn12{float:left; background-color:gold; }
 .btn21{float:left; background-color:orange; }
 .btn22{float:left; background-color:gold; }
 .btn31{float:left; background-color:orange; }
 .btn32{float:left; background-color:gold; }
 
-.lbdown{display: flex; justify-content: center; }
 .btn41{float:left; background-color:orange; }
 .btn42{float:left; background-color:gold; }
 .btn51{float:left; background-color:orange; }
@@ -30,4 +39,5 @@
 .btn61{float:left; background-color:orange; }
 .btn62{float:left; background-color:gold; }
 
-.box5{background: rgba(0, 136, 255, 0.4); height: 40px;}
+.box5{background: rgba(0, 0, 0, 0.4); height: 40px;}
+
