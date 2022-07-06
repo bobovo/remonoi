@@ -1,28 +1,33 @@
 
-.blackBox{background-color: black; width: 204px; height: 363px;}
-
-.box1{background: rgba(255, 0, 0, 0.4); height: 30px;}
-.box2{background: rgba(255, 190, 0, 0.4); height: 72px;}
-.box3{background: rgba(166, 0, 255, 0.4); height: 116px;}
-.box4{background: rgba(0, 255, 72, 0.4); height: 106px;}
-
-.buttons
-{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+.blackBox{background-color: black; width: 204px; height: 363px;
 }
 
-.lbup{display: flex; justify-content: center; }
-.btn1{float:left;}
-.btn2{float:left;}
-.btn3{float:left;}
+.box1{background: rgba(255, 0, 0, 0.2); height: 30px;}
+.box2{background: rgba(255, 190, 0, 0.2); height: 72px;}
+.box3{background: rgba(166, 0, 255, 0.2); height: 116px;}
+.box4{background: rgba(0, 255, 72, 0.2); height: 106px;}
 
-.clear{clear: both;}
+.containerbtns
+{ position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn{height: 23px; width: 23px;}
+.lbup{display: flex; justify-content: center; }
+.btn11{float:left; background-color:orange; }
+.btn12{float:left; background-color:gold; }
+.btn21{float:left; background-color:orange; }
+.btn22{float:left; background-color:gold; }
+.btn31{float:left; background-color:orange; }
+.btn32{float:left; background-color:gold; }
 
 .lbdown{display: flex; justify-content: center; }
-.btn4{float:left;}
-.btn5{float:left;}
-.btn6{float:left;}
+.btn41{float:left; background-color:orange; }
+.btn42{float:left; background-color:gold; }
+.btn51{float:left; background-color:orange; }
+.btn52{float:left; background-color:gold; }
+.btn61{float:left; background-color:orange; }
+.btn62{float:left; background-color:gold; }
 
 .box5{background: rgba(0, 136, 255, 0.4); height: 40px;}
