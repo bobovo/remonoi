@@ -1,17 +1,51 @@
-.blackBox{color: #fff; background-color: black; width: 204px; height: 363px;}
+.blackBox{color: #fff; background-color: black; width: 204px; height: 365px;}
 
-.box1{background: rgba(0, 0, 0, 0.2); height: 30px;}
-.box2{background: rgba(66, 66, 66, 0.7); height: 72px;text-align: center;}
+.box1{height: 30px;}
+
+.box2{background: rgba(0, 0, 0, 0.7);clear: both; height: 72px;
+text-align: center;}
 .circle {
 	border-radius: 50%;
     width: 33px;
     height: 33px;
     background: grey;
     border: 7px solid white;
-    margin: 0; padding: 0;display: inline-block;
+    display: inline-block;
+    margin: 0; padding: 0;
+    position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
-.box3{background: rgba(0, 0, 0, 0.2); height: 116px;}
-.box4{background: rgba(66, 66, 66, 0.7); height: 106px;}
+.box3{ height: 116px;}
+
+
+.play-button-outer {
+  margin: 0% auto;
+  width: 10em;
+  height: 10em;
+  background-color: rgba(50, 50, 50, .7);
+  cursor: pointer;
+ }
+
+.play-button {
+  margin: 0 auto;
+  position: relative;  
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 2.5em 0 2.5em 5em;
+  border-color: transparent transparent transparent #fff;
+  opacity: .75; 
+  
+  transform: translateY(25%);
+  
+}
+.play-button:hover {
+  background-color: rgba(50, 50, 50, .7);
+  opacity: 1;
+}
+
+.box4{background: rgba(0, 0, 0, 0.7); height: 106px;}
 
 .containerbtns
 { position: relative;
@@ -27,8 +61,8 @@
 
 .btn11{float:left; background-color:orange;}
 .btn12{float:left; background-color:gold; }
-.btn21{float:left; background-color:orange; }
-.btn22{float:left; background-color:gold; }
+.btn21{float:left; background-color:darkgrey; }
+.btn22{float:left; background-color:grey; }
 .btn31{float:left; background-color:orange; }
 .btn32{float:left; background-color:gold; }
 
@@ -36,8 +70,8 @@
 .btn42{float:left; background-color:gold; }
 .btn51{float:left; background-color:orange; }
 .btn52{float:left; background-color:gold; }
-.btn61{float:left; background-color:orange; }
-.btn62{float:left; background-color:gold; }
+.btn61{float:left; background-color:darkgrey; }
+.btn62{float:left; background-color:grey; }
 
 .box5{background: rgba(0, 0, 0, 0.4); height: 40px;}
 

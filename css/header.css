@@ -1,2 +1,3 @@
-#remo{float: left;}
-#config{float: right;}
+#remo{padding-left: 4px;padding-top: 6px;float: left;font-size: 14px;}
+#aremo{color: white; text-decoration: none;}
+#config{padding-right: 4px;float: right;}
