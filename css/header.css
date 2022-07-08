@@ -1,3 +1,11 @@
-#remo{padding-left: 4px;padding-top: 6px;float: left;font-size: 14px;}
-#aremo{color: white; text-decoration: none;}
+#aremo{color: #fff; text-decoration: none;
+border-color: transparent transparent transparent #000;}
+
+#remo{font: normal 16px Arial; text-transform: uppercase;
+padding-left: 4px;padding-top: 6px;float: left;font-size: 14px;}
+
+#remo:hover {font-weight: 600;}
+
 #config{padding-right: 4px;float: right;}
+img{transition: transform 2.1s ease-in-out;}
+img:hover {transform: rotate(1080deg);}
