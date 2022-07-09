@@ -5,7 +5,7 @@
     "description": "Remove anoying yt stuff",
     "author": "bob",
     "browser_action": {
-   	 "default_title": "Hello World",
+   	 "default_title": "Remonoi",
    	 "default_popup": "index.html",
    	 "default_icon": "128.png"
     }
