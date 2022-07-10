@@ -7,5 +7,5 @@ padding-left: 4px;padding-top: 6px;float: left;font-size: 14px;}
 #remo:hover {font-weight: 600;}
 
 #config{padding-right: 4px;float: right;}
-img{transition: transform 2.1s ease-in-out;}
-img:hover {transform: rotate(1080deg);}
+#gear{transition: transform 2.1s ease-in-out;}
+#gear:hover {transform: rotate(1080deg);}

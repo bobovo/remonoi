@@ -1,8 +1,6 @@
-
-html, body {height:100%;background-color: transparent;}
-html {width: 206px; height: 368px;} 
-body{width: 202px; height: 364px;;
-}
+html, body {height:100%;margin: 0; padding:0; background-color:none transparent;}
+html {width: 202px; height: 364px;} 
+body{width: 202px; height: 364px;}
 
 .blackBox{background-color: #000; margin: 0; border: 0; padding: 0;width: 202px; height: 364px; 
 border-radius: 0px 0px 20px 20px;}
@@ -11,17 +9,29 @@ border-radius: 0px 0px 20px 20px;}
 
 .box2{clear: both; height: 72px;
 text-align: center;}
+
 .circle {
 	border-radius: 50%;
-    width: 33px;
-    height: 33px;
-    background: grey;
-    border: 7px solid white;
+    width: 65px;
+    height: 65px;
+    background-color: none transparent;
     display: inline-block;
-    margin: 0; padding: 0;
     position: relative;
   	top: 50%;
   	transform: translateY(-50%);
+}
+
+.effect img.image{
+/*type your css here which you want to use for both*/
+}
+.effect:hover img.image{
+display:none;
+}
+.effect img.hover{
+display:none;
+}
+.effect:hover img.hover{
+display:block;
 }
 
 .box3{ height: 116px;}
@@ -44,8 +54,7 @@ text-align: center;}
   border-width: 2.5em 0 2.5em 5em;
   border-color: transparent transparent transparent #fff;
   opacity: .75; 
-  
-  transform: translateY(25%);
+  transform: translateY(50%);
   
 }
 .play-button:hover {
@@ -63,7 +72,7 @@ text-align: center;}
 
 .navigation ul { margin: 0; padding: 0; }
 .navigation li {display: inline-block;}
-.navigation {color: #fff; margin: 0px 2px; padding: 0px 25px;}
+.navigation {color: #fff; margin: 0px 0px; padding: 0px 32px;}
   
 .btn{height: 21px; width: 21px;text-align: center;}
 
@@ -72,19 +81,19 @@ text-align: center;}
 .a11:visited{background-color:green;}
 .a11:hover{background-color:white;}
 
-.btn11{float:left; background-color:orange;}
-.btn12{float:left; background-color:gold; }
-.btn21{float:left; background-color:darkgrey; }
-.btn22{float:left; background-color:grey; }
-.btn31{float:left; background-color:orange; }
-.btn32{float:left; background-color:gold; }
+.btn11{float:left; background-color:red;}
+.btn12{float:left; background-color:darkred; }
+.btn21{float:left; background-color:orange; }
+.btn22{float:left; background-color:darkorange; }
+.btn31{float:left; background-color:yellow; }
+.btn32{float:left; background-color:darkkhaki; }
 
-.btn41{float:left; background-color:orange; }
-.btn42{float:left; background-color:gold; }
-.btn51{float:left; background-color:orange; }
-.btn52{float:left; background-color:gold; }
-.btn61{float:left; background-color:darkgrey; }
-.btn62{float:left; background-color:grey; }
+.btn41{float:left; background-color:lightgreen; }
+.btn42{float:left; background-color:limegreen; }
+.btn51{float:left; background-color:turquoise; }
+.btn52{float:left; background-color:teal; }
+.btn61{float:left; background-color:violet; }
+.btn62{float:left; background-color:darkviolet; }
 
 .box5{height: 46px;}
 
