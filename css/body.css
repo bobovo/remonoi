@@ -37,7 +37,7 @@ display:block;
 .box3{ height: 116px;}
 
 
-.play-button-outer {
+.outer-play-button-outer {
   margin: 0% auto;
   width: 202px;
   height: 116px;
@@ -45,7 +45,7 @@ display:block;
   cursor: pointer;
  }
 
-.play-button {
+.play-button{
   margin: 0 auto;
   position: relative;  
   width: 0;
