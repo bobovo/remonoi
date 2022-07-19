@@ -1,14 +1,12 @@
-window.onload = function bs() {
-    document.getElementById("btn21").onclick = function bs(){
+window.onload = function () {
+    
+    document.getElementById("btn21").onclick = function (){
     hide();
     }
-}
-
-/*window.onload = function bh() {
-    document.getElementById("btn22").onclick = function bh(){
+    document.getElementById("btn22").onclick = function (){
     show();
     }
-}*/ /* only one function at the its working*/
+}
 
 function hide() {
 	var myClasses = document.querySelectorAll('.play-button'),
