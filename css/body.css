@@ -83,8 +83,10 @@ display:block;
 
 .btn11{float:left; background-color:red;}
 .btn12{float:left; background-color:darkred; }
-.btn21{float:left; background-color:orange; }
-.btn22{float:left; background-color:darkorange; }
+#btn21{height: 21px; width: 21px;text-align: center;
+float:left; background-color:orange;}
+#btn22{height: 21px; width: 21px;text-align: center;
+float:left; background-color:darkorange; }
 .btn31{float:left; background-color:yellow; }
 .btn32{float:left; background-color:darkkhaki; }
 
